@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Sql;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,8 +21,9 @@ namespace ConsoleClient
             {
                 Console.WriteLine("Operating System: {0}", Environment.OSVersion);
                 Console.WriteLine("SQL API running at {0} - press Enter to quit. ", baseAddress);
-                
+
                 Console.ReadLine();
+
             }
         }
     }
